@@ -1,0 +1,1 @@
+php c:\OpenServer\OSPanel\domains\HUFDB-new\server.php start

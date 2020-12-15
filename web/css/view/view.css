@@ -1,0 +1,38 @@
+.imageViewer, .mainImage, .bottomImgRow div {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.imageViewer {
+    min-height: 100%;
+}
+.imageViewer .rightPanel {
+    background-color: rgba(24,24,24,0.4);
+}
+.rightPanel:hover {
+    background-color: rgba(24, 24, 24, 0.15);
+    cursor: pointer;
+}
+.mainImage {
+    height: 30rem;
+}
+.loupeCursor {
+    cursor: url('../../images/loupe32.cur'), zoom-in;
+}
+.modal .bottomImgRow {
+    background-color: rgba(24,24,24,0.4);
+    position: absolute!important;
+    bottom: 0;
+}
+.border-bottomImgRow {
+    border: 2px solid rgba(24, 24, 24, 0);
+}
+.border-bottomImgRowActive {
+    border: 2px solid rgba(95, 80, 255, 0.87);
+}
+
+@media (max-width: 1200px) {
+    .mainImage {
+        height: 20rem;
+    }
+}
